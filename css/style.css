@@ -182,35 +182,35 @@ section.properties {
 /* Services Section */
 
 .container-services {
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-section.services {
+/*.services {
     margin-bottom: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+}*/
 
-.section-title{
+.section-title-services {
     text-align: center;
     color: #1E3A8A;
     margin-bottom: 40px;
     font-size: 2.2rem;
 }
+
 .services-grid {
     display: grid;
     grid-template-columns: 300px 300px;
     gap: 25px;
     grid-template-rows: 300px 300px;
-    grid-template-areas: 
-    compra-venta  asesoria-legal
-    financiamiento  tasaciones;
+    grid-template-areas:
+        compra-venta asesoria-legal
+        financiamiento tasaciones;
 }
 
 .service-card {
@@ -245,6 +245,14 @@ section.services {
 }
 
 /* Testimonials Section */
+
+.section-title-testimonial {
+    text-align: center;
+    color: #1E3A8A;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}
+
 section.testimonials {
     margin-bottom: 40px;
 }
